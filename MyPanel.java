@@ -14,7 +14,8 @@ public class MyPanel extends JPanel {
 		
 	}
 	
-	protected void paintCompentent(Graphics g)
+	@Override
+	protected void paintComponent(Graphics g)
 	{
 		super.paintComponent(g);
 		
